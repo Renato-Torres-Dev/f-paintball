@@ -14,10 +14,10 @@ module.exports = {
         'hero-image': "url('/images/hero-bg.png')",
       },
       fontFamily: {
-        mono: ['var(--font-plex-mono)', 'monospace'],
+        mono: ['Consolas', 'monospace'],
       },
       boxShadow: {
-        button: '0px 0px 68px 7px rgba(5, 150, 105, 0.4)',
+        button: '0px 0px 68px 7px rgba(255, 0, 0, 0.4)',
       },
     },
   },
