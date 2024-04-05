@@ -12,6 +12,11 @@
   @apply mx-auto w-full max-w-[1200px] px-6
 }
 
+.font-kanit {
+  font-family: "Kanit";
+  font-weight: 400;
+}
+
 *::-webkit-scrollbar {
   width: 8px;
 }

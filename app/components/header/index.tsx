@@ -12,8 +12,8 @@ const NAV_ITEMS = [
     href: "/sobre",
   },
   {
-    label: "Elenco",
-    href: "/elenco",
+    label: "Games",
+    href: "/games",
   },
   {
     label: "Conquistas",
