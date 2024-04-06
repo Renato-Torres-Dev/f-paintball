@@ -33,7 +33,7 @@ export const Header = () => {
         <Image
           width={58}
           height={49}
-          src="/images/logo.svg"
+          src="/images/icons/lunatics-logo.svg"
           alt="Logo Lunatics FC"
           style={{
             marginLeft: 12,

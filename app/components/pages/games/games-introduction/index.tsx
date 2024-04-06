@@ -1,3 +1,5 @@
+import { HiArrowNarrowDown } from "react-icons/hi"
+
 export const GameIntroduction = () => {
   return (
     <section className="w-full sm:min-h-[600px] pb-10 sm:pb-24 py-24 px-6 bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
@@ -15,6 +17,13 @@ export const GameIntroduction = () => {
             jogada conta. Bem-vindo à área de games dos Lunatics E-Sports, onde a vitória é apenas 
             o começo!
           </p>
+          <div className="mb-6 flex flex-row hover:text-red-700">
+            <HiArrowNarrowDown size={20}/>
+            <strong>
+              Acompanhe a nossa lista de games no cenário competitivo abaixo!
+            </strong>
+            <HiArrowNarrowDown size={20}/>
+          </div>
         </div>
       </div>
     </section>
