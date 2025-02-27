@@ -5,7 +5,7 @@ export const SobreIntroducao = () => {
   return (
     <section className="w-full sm:min-h-[600px] pb-10 sm:pb-24 py-24 px-6 bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
       <div className="items-center">
-        <h1 className="text-center text-4xl font-kanit text-red-700">
+        <h1 className="text-center text-4xl font-kanit text-lime-700">
           Sobre Lunatics E-Sports
         </h1>
         <div className="flex flex-col items-center bg-neutral-800 bg-opacity-50 rounded-lg mt-6">
@@ -35,7 +35,7 @@ export const SobreIntroducao = () => {
             somos mais do que apenas um time, somos uma força a ser reconhecida nos e-sports.
           </p>
         </div>
-        <NextLink href="/" className="flex items-center gap-2 mt-6 text-neutral-300 text-sm hover:text-red-500 transition-colors">
+        <NextLink href="/" className="flex items-center gap-2 mt-6 text-neutral-300 text-sm hover:text-lime-500 transition-colors">
           <HiArrowNarrowLeft size={20}/>
           Voltar para o início
         </NextLink>

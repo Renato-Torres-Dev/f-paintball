@@ -8,11 +8,11 @@ const NAV_ITEMS = [
     href: "/",
   },
   {
-    label: "Sobre",
+    label: "Nossa História",
     href: "/sobre",
   },
   {
-    label: "Games",
+    label: "Vídeos",
     href: "/games",
   },
   {
@@ -27,14 +27,14 @@ const NAV_ITEMS = [
 
 export const Header = () => {
   return (
-    <header className="absolute top-0 w-full z-10 h-24 flex items-center justify-center">
+    <header className="absolute top-0 w-full z-10 h-24 flex items-center justify-center bg-zinc-950/75">
       <div className="container flex items-center justify-start">
         <Link href="/"/>
         <Image
           width={58}
           height={49}
-          src="/images/icons/lunatics-logo.svg"
-          alt="Logo Lunatics FC"
+          src="/images/icon_f_paintball.png"
+          alt="F-Paintball Club"
           style={{
             marginLeft: 12,
           }}

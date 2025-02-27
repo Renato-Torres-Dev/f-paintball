@@ -4,7 +4,7 @@ export const GameIntroduction = () => {
   return (
     <section className="w-full sm:min-h-[600px] pb-10 sm:pb-24 py-24 px-6 bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
       <div className="items-center">
-        <h1 className="text-center text-4xl font-kanit text-red-700">
+        <h1 className="text-center text-4xl font-kanit text-lime-700">
           Nossos Games Competitivos
         </h1>
         <div className="flex flex-col items-center bg-neutral-800 bg-opacity-50 rounded-lg mt-6">
@@ -17,7 +17,7 @@ export const GameIntroduction = () => {
             jogada conta. Bem-vindo à área de games dos Lunatics E-Sports, onde a vitória é apenas 
             o começo!
           </p>
-          <div className="mb-6 flex flex-row hover:text-red-700">
+          <div className="mb-6 flex flex-row hover:text-lime-700">
             <HiArrowNarrowDown size={20}/>
             <strong>
               Acompanhe a nossa lista de games no cenário competitivo abaixo!

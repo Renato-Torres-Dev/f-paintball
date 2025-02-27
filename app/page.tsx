@@ -1,15 +1,17 @@
 import { Metadata } from "next";
 import { HeroSection } from "./components/pages/home/hero-section";
+import { BlogHome } from "./components/pages/home/blog";
 
 export const metadata: Metadata = {
-  title: "Lunatics E-Sports",
-  icons: "/images/icons/lunatics-logo.svg",
+  title: "F-Paintball | Family Paintball",
+  icons: "/images/icons/icon_f_paintball.svg",
 }
 
 export default async function Home() {
   return (
     <>
       <HeroSection />
+      <BlogHome />
     </>
   )
 }
