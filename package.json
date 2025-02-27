@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-tutorial-2023",
+  "name": "f-paintball-team",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://renato-torres-dev.github.io/f-paintball",
@@ -7,8 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "npm run build & gh-pages -d dist"
+    "lint": "next lint"
   },
   "dependencies": {
     "@graphcms/rich-text-react-renderer": "0.6.1",

@@ -24,14 +24,14 @@ export const BlogHome = () => {
     },
     {
       id: "2",
-      title: "Post de Teste 2",
-      imageUrl: "/placeholder.jpg",
+      title: "Calendário 2025 Liga R.A. Nordeste saiu",
+      imageUrl: "/images/img00002.png",
       url: "/blog/post-2"
     },
     {
       id: "3",
-      title: "Post de Teste 3",
-      imageUrl: "/placeholder.jpg",
+      title: "Novo campo em Caruaru inaugura",
+      imageUrl: "/images/img00003.png",
       url: "/blog/post-3"
     },
   ]);
@@ -73,7 +73,7 @@ export const BlogHome = () => {
               >
                 <a 
                   href={post.url} 
-                  className="text-3xl font-semibold text-white bg-black/50 p-2 rounded-lg"
+                  className="text-3xl font-semibold text-white allerta-stencil bg-black/50 p-2 rounded-lg"
                 >
                   {post.title}
                 </a>
@@ -81,7 +81,7 @@ export const BlogHome = () => {
             </div>
           ))}
         </div>
-        <div className="swiper-pagination"></div>
+        {/* <div className="swiper-pagination"></div> */}
       </div>
     </div>
   );
