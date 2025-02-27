@@ -5,15 +5,15 @@ import { TbBrandDiscord, TbBrandInstagram, TbBrandYoutube } from 'react-icons/tb
 
 const Mock_Contacts = [
   {
-    url:"/",
+    url:"https://www.instagram.com/f_paintball_club/",
     icon: <TbBrandInstagram />
   },
   {
-    url:"/",
+    url:"https://www.youtube.com/@F-Paintball",
     icon: <TbBrandYoutube />
   },
   {
-    url:"/",
+    url:"https://discord.gg/SQEqHNZw",
     icon: <TbBrandDiscord />
   }
 ]

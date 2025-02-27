@@ -45,11 +45,11 @@
 }
 
 .swiper-pagination-bullet {
-  background: #4F46E5;
+  background: #FFF;
 }
 
 .swiper-pagination-bullet-active {
-  background: #4F46E5 !important;
+  background: #FFF !important;
 }
 
 

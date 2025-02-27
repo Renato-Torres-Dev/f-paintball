@@ -13,7 +13,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Vídeos",
-    href: "/games",
+    href: "/videos",
   },
   {
     label: "Conquistas",
