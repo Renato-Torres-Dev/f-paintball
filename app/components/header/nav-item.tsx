@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation"
 type NavItemProps = {
   label: string,
   href: string,
+  onClick?: () => void;
 }
 
 export const NavItem = ({ label, href }: NavItemProps) => {
