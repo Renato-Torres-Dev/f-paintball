@@ -20,7 +20,7 @@ const Mock_Contacts = [
 
 export const HeroSection = () => {
   return (
-    <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
+    <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center mt-24 pb-10 sm:pb-32 py-32 lg:pb-[170px]">
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row-reverse">
         <motion.div 
           className="w-full lg:max-w-[530px]"

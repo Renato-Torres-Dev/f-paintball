@@ -20,19 +20,19 @@ export const BlogHome = () => {
       id: "1",
       title: "O próximo jogo do F-Paintball será dia 16/03/25",
       imageUrl: "/images/img00001.png",
-      url: "/blog/post-1"
+      url: "/noticias/15"
     },
     {
       id: "2",
       title: "Calendário 2025 Liga R.A. Nordeste saiu",
       imageUrl: "/images/img00002.png",
-      url: "/blog/post-2"
+      url: "/noticias/30"
     },
     {
       id: "3",
       title: "Novo campo em Caruaru inaugura",
       imageUrl: "/images/img00003.png",
-      url: "/blog/post-3"
+      url: "/noticias/37"
     },
   ]);
 
