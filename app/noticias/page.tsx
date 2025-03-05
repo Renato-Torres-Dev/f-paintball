@@ -33,7 +33,7 @@ export default function BlogGrid() {
   }, []);
 
   return (
-    <div className="w-full h-full mt-24 pt-24 pb-12 bg-black">
+    <div className="w-full h-[100vh] mt-24 pt-24 pb-12 bg-black">
       <h2 className="text-4xl text-center text-white mb-8 allerta-stencil-title">Últimas Notícias</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-6xl mx-auto">
         {posts.map((post) => (

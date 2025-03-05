@@ -42,9 +42,9 @@ export const BlogHome = () => {
         modules: [Pagination, Mousewheel, Autoplay],
         loop: true,
         direction: "vertical",
-        mousewheel: {
-          releaseOnEdges: true,
-        },
+        // mousewheel: {
+        //   releaseOnEdges: true,
+        // },
         spaceBetween: 30,
         grabCursor: true,
         autoplay: {

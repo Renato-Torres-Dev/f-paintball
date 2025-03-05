@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { HeroSection } from "./components/pages/home/hero-section";
 import { BlogHome } from "./components/pages/home/blog";
+import { MembrosHome } from "./components/pages/membros";
 
 export const metadata: Metadata = {
   title: "F-Paintball | Family Paintball",
@@ -12,6 +13,7 @@ export default async function Home() {
     <>
       <HeroSection />
       <BlogHome />
+      <MembrosHome />
     </>
   )
 }
