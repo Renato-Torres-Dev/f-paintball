@@ -2,6 +2,7 @@ import { Inter, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
 import { ReactNode } from 'react'
 import { Header } from './components/header'
+import { Footer } from './components/footer'
 
 const inter = Inter({
   variable: '--font-inter',
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

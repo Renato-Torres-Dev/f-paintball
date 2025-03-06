@@ -52,69 +52,94 @@
   background: #FFF !important;
 }
 
-/* From Uiverse.io by Randdose */ 
-.button {
-  all: unset;
+.animated-button {
+  position: relative;
   display: flex;
   align-items: center;
-  position: relative;
-  padding: 0.6em 2em;
-  border: mediumspringgreen solid 0.15em;
-  border-radius: 0.25em;
-  color: mediumspringgreen;
-  font-size: 1.5em;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
   font-weight: 600;
+  color: #5ea500;
+  box-shadow: 0 0 0 2px #5ea500;
   cursor: pointer;
   overflow: hidden;
-  transition: border 300ms, color 300ms;
-  user-select: none;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.button p {
-  z-index: 1;
-}
-
-.button:hover {
-  color: #212121;
-}
-
-.button:active {
-  border-color: teal;
-}
-
-.button::after, .button::before {
-  content: "";
+.animated-button svg {
   position: absolute;
-  width: 9em;
-  aspect-ratio: 1;
-  background: mediumspringgreen;
-  opacity: 50%;
+  width: 24px;
+  fill: #5ea500;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: #5ea500;
   border-radius: 50%;
-  transition: transform 500ms, background 300ms;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.button::before {
-  left: 0;
-  transform: translateX(-8em);
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.button::after {
-  right: 0;
-  transform: translateX(8em);
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
 }
 
-.button:hover:before {
-  transform: translateX(-1em);
+.animated-button:hover .arr-1 {
+  right: -25%;
 }
 
-.button:hover:after {
-  transform: translateX(1em);
+.animated-button:hover .arr-2 {
+  left: 16px;
 }
 
-.button:active:before,
-.button:active:after {
-  background: teal;
+.animated-button:hover .text {
+  transform: translateX(12px);
 }
+
+.animated-button:hover svg {
+  fill: #212121;
+}
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px #5ea500;
+}
+
+.animated-button:hover .circle {
+  width: 400px;
+  height: 400px;
+  opacity: 1;
+}
+
 
 
 *::-webkit-scrollbar {

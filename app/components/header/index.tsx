@@ -67,7 +67,7 @@ export const Header = () => {
 
       {/* Dropdown mobile */}
       {menuOpen && (
-        <div className="absolute top-24 left-0 w-full bg-zinc-950/90 p-6 flex flex-col items-center space-y-4 md:hidden">
+        <div className="absolute top-24 left-0 w-full bg-zinc-950 p-6 flex flex-col items-center space-y-4 md:hidden">
           {NAV_ITEMS.map(item => (
             <NavItem {...item} key={item.label} onClick={() => setMenuOpen(false)} />
           ))}
